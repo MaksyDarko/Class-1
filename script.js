@@ -1,11 +1,11 @@
-let ticketPriceForAge = 12;
+let dayOfTheWeek = "Monday";
 
-if (ticketPriceForAge < 12) {
-  console.log("Chield ticket: $5");
-} else if (ticketPriceForAge >= 12 && ticketPriceForAge <= 18) {
-  console.log("Teen ticket: $7");
-} else if (ticketPriceForAge >= 18 && ticketPriceForAge <= 60) {
-  console.log("Senior ticket: $10");
+if (dayOfTheWeek === "Monday") {
+  console.log("Start of the work week!");
+} else if (dayOfTheWeek === "Wednesday") {
+  console.log("Midweek");
+} else if (dayOfTheWeek === "Friday") {
+  console.log("Almost weekend!");
 } else {
-  console.log("Adult ticket: $12");
+  console.log("Just another day");
 }
