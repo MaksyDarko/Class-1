@@ -1,10 +1,15 @@
-let username = "user123";
-let password = "password123";
+let elegibleAge = 17;
 
-if (username === "admin" && password === "adminpass") {
-  console.log("Welcome, admin!");
-} else if (username === "user123" && password === "password123") {
-  console.log("Welcome, user123!");
+if (elegibleAge >= 18) {
+  console.log("You are eligible to vote");
 } else {
-  console.log("Invalid username or password.");
+  console.log("You are not eligible to vote");
 }
+
+// let elegibleAge = 20;
+
+console.log(
+  elegibleAge >= 18
+    ? "You are eligible to vote"
+    : "You are not eligible to vote"
+);
