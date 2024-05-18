@@ -1,15 +1,10 @@
-let temperatureComfort = 18;
+let orderAmount = 100;
 
-if (temperatureComfort >= 20 && temperatureComfort <= 25) {
-  console.log("Comfortable");
+if (orderAmount >= 100) {
+  console.log("Shipping is free!");
 } else {
-  console.log("Uncomfortable");
+  console.log("Shipping is 10$");
 }
 
-// let temperatureComfort = 22;
-
-console.log(
-  temperatureComfort >= 20 && temperatureComfort <= 25
-    ? "Comfortable"
-    : "Uncomfortable"
-);
+// let orderAmount = 8;
+console.log(orderAmount >= 100 ? "Shipping is free!" : "Shipping is 10$");
