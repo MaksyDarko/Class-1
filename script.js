@@ -1,15 +1,11 @@
-let elegibleAge = 17;
+let scoreForTest = 70;
 
-if (elegibleAge >= 18) {
-  console.log("You are eligible to vote");
+if (scoreForTest >= 65) {
+  console.log("Pass");
 } else {
-  console.log("You are not eligible to vote");
+  console.log("Fail");
 }
 
-// let elegibleAge = 20;
+// let scoreForTest = 30;
 
-console.log(
-  elegibleAge >= 18
-    ? "You are eligible to vote"
-    : "You are not eligible to vote"
-);
+console.log(scoreForTest >= 65 ? "Pass" : "Fail");
