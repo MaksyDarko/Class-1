@@ -1,11 +1,15 @@
-let scoreForTest = 70;
+let temperatureComfort = 18;
 
-if (scoreForTest >= 65) {
-  console.log("Pass");
+if (temperatureComfort >= 20 && temperatureComfort <= 25) {
+  console.log("Comfortable");
 } else {
-  console.log("Fail");
+  console.log("Uncomfortable");
 }
 
-// let scoreForTest = 30;
+// let temperatureComfort = 22;
 
-console.log(scoreForTest >= 65 ? "Pass" : "Fail");
+console.log(
+  temperatureComfort >= 20 && temperatureComfort <= 25
+    ? "Comfortable"
+    : "Uncomfortable"
+);
